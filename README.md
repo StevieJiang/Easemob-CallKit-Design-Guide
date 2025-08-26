@@ -1,7 +1,7 @@
 # 通话套件人机交互界面工具包设计指南
 Design Guide of CallKit, Mobile and Web
 
-<img src="https://github.com/StevieJiang/Chat-UIkit-Design-Guide/blob/main/CUIimg/CUIcover2.png" width="100%" >
+<img src="https://github.com/StevieJiang/Easemob-CallKit-Design-Guide/blob/main/CUI/Cover.png" width="100%" >
 
 环信通话套件人机交互界面工具包基于环信移动端单/群聊人机交互界面工具包进行设计，设计原则、全局样式、小控件样式均复用自环信单/群聊人机交互界面工具包，详见： [单/群聊人机交互界面工具包](https://doc.easemob.com/uikit/chatroomuikit/android/design_guide.html)。
 
