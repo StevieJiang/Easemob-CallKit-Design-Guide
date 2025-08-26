@@ -354,8 +354,12 @@ Message Bubble(Large Radius)
 ### 2.1.按钮(Botton)
 按钮组件在通话界面开发工具包中仅包含图标按钮一种，分为大、中、小三种尺寸、支持前景色、背景色配置。支持点击操作。
 
+![image text](https://github.com/StevieJiang/Easemob-CallKit-Design-Guide/blob/main/CUI/botton.png)
+
 ### 2.2.头像(Avatar)
 本项目中的头像组件，复用环信单/群聊人机交互界面工具包的相关组件。依据当前视图需要，显示对应的头像值。
+
+![image text](https://github.com/StevieJiang/Easemob-CallKit-Design-Guide/blob/main/CUI/avatar.png)
 
 ### 2.3.文本(Text)
 本项目中的文本，分为三种样式：标题(Title)、小标题(Subtitle)、标签(Label)三类。
@@ -363,22 +367,33 @@ Message Bubble(Large Radius)
 #### 2.3.1.标题(Title)
 用于显示当前控件或视图中，最重要的文本信息，对应的字体排版 token 为：Title/Large
 
+![image text](https://github.com/StevieJiang/Easemob-CallKit-Design-Guide/blob/main/CUI/title.png)
+
 #### 2.3.2.小标题(Subtitle)
 用于显示当前控件或视图中，次重要的文本信息，对应的字体排版 token 为：Title/Small
+
+![image text](https://github.com/StevieJiang/Easemob-CallKit-Design-Guide/blob/main/CUI/Subtitle.png)
 
 #### 2.3.3.标签(Label)
 用于显示当前控件或视图中，需解释说明的文本，对应的字体排版 token 为：Label/Small(web端)、Label/Extra Small(mobile端)
 
+![image text](https://github.com/StevieJiang/Easemob-CallKit-Design-Guide/blob/main/CUI/Label.png)
+
 ### 2.4.操作项(Action Item)
 为控制当前视图功能的主要操作项，如：接听、挂断、麦克风和摄像头的开关等等。支持点击操作
-
 大小(Size）上分为大(Large)、标准(Standard)、小(Small)三种尺寸，状态(Status)上分为普通(Normal)、点按(Pressed)、禁用(Disabled)三种状态，样式上分为开、关两种样式。底部说明文字支持显示/隐藏。
+
+![image text](https://github.com/StevieJiang/Easemob-CallKit-Design-Guide/blob/main/CUI/Action2.png)
 
 ### 2.5.流信息(stream info)
 用以展示当前视频流的相关信息和状态，支持显示一个名称字段和至多两个icon状态显示。
 
+![image text](https://github.com/StevieJiang/Easemob-CallKit-Design-Guide/blob/main/CUI/info.png)
+
 ### 2.6.信号展示(Signal)
 用以展示当前视频流的信号强度，分为未知、信号弱、信号中等、信号强四种状态。
+
+![image text](https://github.com/StevieJiang/Easemob-CallKit-Design-Guide/blob/main/CUI/signal.png)
 
 ### 2.7.背景图(Background Picture)
 用于界面的背景图展示，支持用户自定义图片。
@@ -396,6 +411,8 @@ Message Bubble(Large Radius)
 
 ### 3.3.视频流（Video Stream）
 展示会话中拉到或者本地获取的视频流，左下角展示流信息，右上角展示当前流信号强度。
+
+![image text](https://github.com/StevieJiang/Easemob-CallKit-Design-Guide/blob/main/CUI/stream.png)
 
 ### 3.4.视频流列表（Video Stream list）
 在多人会话中，多个视频流组成的列表，拥有一般列表展示状态和聚焦列表展示状态
