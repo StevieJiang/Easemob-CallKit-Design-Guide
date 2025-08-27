@@ -398,6 +398,8 @@ Message Bubble(Large Radius)
 ### 2.7.背景图(Background Picture)
 用于界面的背景图展示，支持用户自定义图片。
 
+![image text](https://github.com/StevieJiang/Easemob-CallKit-Design-Guide/blob/main/CUI/bg.png)
+
 ## 3.控件（Components）
 
 ### 3.1.顶部条（TopBar）
@@ -405,9 +407,13 @@ Message Bubble(Large Radius)
 支持左侧一个操作(最小化)，右侧一个操作(一般为群组通话添加成员)，并支持两个操作的显示/隐藏。
 中间展示三个字段：头像、当前视图名称(title)、附加消息(Subtitle)，并支持显示信息的显示/隐藏。
 
+![image text](https://github.com/StevieJiang/Easemob-CallKit-Design-Guide/blob/main/CUI/header.png)
+
 ### 3.2.通话操作（Actions）
 通话操作为针对当前会话的相关操作项集合。
 操作数量上依照当前视图场景的业务需求可做增减。
+
+![image text](https://github.com/StevieJiang/Easemob-CallKit-Design-Guide/blob/main/CUI/actionslist.png)
 
 ### 3.3.视频流（Video Stream）
 展示会话中拉到或者本地获取的视频流，左下角展示流信息，右上角展示当前流信号强度。
@@ -417,13 +423,19 @@ Message Bubble(Large Radius)
 ### 3.4.视频流列表（Video Stream list）
 在多人会话中，多个视频流组成的列表，拥有一般列表展示状态和聚焦列表展示状态
 
+![image text](https://github.com/StevieJiang/Easemob-CallKit-Design-Guide/blob/main/CUI/streamslist.png)
+
 ### 3.5.通话浮窗（PiP）
-用以在通话最小化时显示会话状态/一对一视频通话中次要视频流的展示，分为群通话、一对一视频通话
+用以在通话最小化时显示会话状态/一对一视频通话中次要视频流的展示，分为群通话、一对一视频通话样式，且悬浮窗可被收起。
+
+![image text](https://github.com/StevieJiang/Easemob-CallKit-Design-Guide/blob/main/CUI/PiP.png)
 
 ### 3.6.来电通知(Incoming Call Noti)
 用以在App内与当前通话不相关页面展示时的来电提示。
 以条幅通知的形式展示在界面顶部，显示字段有：头像、主标题、次标题、通话成员头像列表；支持接听、挂断、点击展示通话详情三个点击操作。
+并依照当前Chat UIKit主题，显示不同的模式(onlight/ondark)
 
+![image text](https://github.com/StevieJiang/Easemob-CallKit-Design-Guide/blob/main/CUI/callnoti2.png)
 
 ## 4.视图（View）
 
@@ -432,32 +444,50 @@ Message Bubble(Large Radius)
 ### 4.1.1. 主叫视图(receive)
 用于一对一音频通话接通前的展示和操作，分为顶部信息、底部操作、背景图三部分。
 
+![image text](https://github.com/StevieJiang/Easemob-CallKit-Design-Guide/blob/main/CUI/audio_receive.png)
+
 ### 4.1.2. 被叫视图(answer)
 用于接到一对一音频通话邀请时的展示和操作，分为顶部信息、底部操作、背景图三部分。
 
+![image text](https://github.com/StevieJiang/Easemob-CallKit-Design-Guide/blob/main/CUI/audio_answer.png)
+
 ### 4.1.3. 通话中视图(calling)
 用于一对一音频通话中的展示和操作，分为顶部信息、底部操作、背景图三部分。
+
+![image text](https://github.com/StevieJiang/Easemob-CallKit-Design-Guide/blob/main/CUI/audio_calling.png)
 
 ## 4.2.一对一视频通话视图(One-on-One Video Call View)
 
 ### 4.2.1. 主叫视图(receive)
 用于一对一视频通话接通前的展示和操作，分为顶部信息、底部操作、本地视频流展示三部分。
 
+![image text](https://github.com/StevieJiang/Easemob-CallKit-Design-Guide/blob/main/CUI/video_receive.png)
+
 ### 4.2.2. 被叫视图(answer)
 用于接到一对一视频通话邀请的展示和操作，分为顶部信息、底部操作、本地视频流展示三部分。
 
+![image text](https://github.com/StevieJiang/Easemob-CallKit-Design-Guide/blob/main/CUI/video_answer.png)
+
 ### 4.2.3. 通话中视图(calling)
 用于一对一视频通话中的展示和操作，分为顶部信息、底部操作、双方视频流展示三部分。
+
+![image text](https://github.com/StevieJiang/Easemob-CallKit-Design-Guide/blob/main/CUI/video_calling.png)
 
 ## 4.3.多人通话视图(Multi Call View)
 
 ### 4.3.1. 被叫视图(answer)
 用于接到多人通话接邀请的展示和操作，分为顶部信息、底部操作、本地视频流展示三部分。
 
+![image text](https://github.com/StevieJiang/Easemob-CallKit-Design-Guide/blob/main/CUI/multi_answer.png)
+
 ### 4.3.2. 通话中视图(calling)
 用于多人通话进行中的展示和操作，分为顶部信息、底部操作、多人视频流展示三部分。
 
+![image text](https://github.com/StevieJiang/Easemob-CallKit-Design-Guide/blob/main/CUI/multi_calling.png)
+
 ## 5.通话相关消息样式（Call Msg）
+
+![image text](https://github.com/StevieJiang/Easemob-CallKit-Design-Guide/blob/main/CUI/call_msg.png)
 
 详见：[单/群聊人机交互界面工具包](https://doc.easemob.com/uikit/chatroomuikit/android/design_guide.html)。
 
